@@ -10,7 +10,7 @@ import Mission from "./sections/Mission";
 
 const Popup = ({ onClose }) => {
   return (
-    <div className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-50 backdrop-blur-sm">
+    <div className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-50 backdrop-blur-lg">
       <div className="rounded-lg p-8">
         <button
           className="bg-[#fd8b00] rounded-full px-6 py-2 text--2xl sm:text-5xl font-kid  font-bold border-2"
