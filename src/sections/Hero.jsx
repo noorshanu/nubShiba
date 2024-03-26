@@ -36,7 +36,7 @@ function Hero() {
           <img
             src="images/hero.png"
             alt=""
-            className="w-auto h-64    lg:h-[500px] 2xl:h-[550px] mx-auto"
+            className="w-auto h-64    lg:h-[500px] 2xl:h-[550px] mx-auto floating"
           />
         </div>
       </div>
