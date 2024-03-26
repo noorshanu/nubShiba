@@ -6,6 +6,7 @@ import MemeMark from "./sections/MemeMark";
 
 import Footer from "./sections/Footer";
 import Music from "./nubshiba.mp3";
+import Mission from "./sections/Mission";
 
 const Popup = ({ onClose }) => {
   return (
@@ -62,7 +63,7 @@ function AppLayout() {
           </button>
         
         </div>
-        <a href="/" className="bg-[#fd8b00] my-2 text-black font-bold py-2 px-16 rounded focus:outline-none focus:shadow-outline flex justify-center w-[500px] mx-auto">BpAsimH7aFv2KFLDQeqWQkkCQh2to3ucfoaJ6UYfiDuk</a>
+        <a href="/" className="bg-[#fd8b00] my-2 text-black font-bold py-2 px-2 sm:px-16 rounded sm:text-2xl text-xs   flex justify-center w-[360px] sm:w-[680px] mx-auto">BpAsimH7aFv2KFLDQeqWQkkCQh2to3ucfoaJ6UYfiDuk</a>
         <audio ref={audioRef} src={Music}></audio>
 
       
@@ -74,6 +75,8 @@ function AppLayout() {
         <dl className="h-[50px]" />
         <Intro />
         <dl className="h-[50px]" />
+
+        <Mission/>
         {/* <div>
           <Photo/>
         </div> */}

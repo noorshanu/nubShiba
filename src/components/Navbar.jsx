@@ -8,9 +8,9 @@ function Navbar() {
 
   return (
     <nav className=" bg-transparent py-4  absolute top-0 w-full z-40">
-      <div className="max-w-3xl mx-auto px-4 flex justify-center items-center">
+      <div className=" max-w-full sm:max-w-3xl mx-auto px-4 flex justify-between sm:justify-center items-center">
         {/* Logo */}
-        <div className="flex items-center flex-shrink-0 mr-6">
+        <div className="flex justify-center items-center flex-shrink-0 mr-6">
         <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
           <img src="images/logo.png" className="h-[100px]" alt=" Logo" />
         </a>
