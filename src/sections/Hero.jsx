@@ -22,7 +22,7 @@ function Hero() {
         <div className=" flex justify-center gap-5 items-center mt-[2rem]">
         <a
                   href="https://twitter.com/NubshibSolana"
-                  className=" text-xl text-black bg-[#fd8b00] hover:bg-[#1a4093] rounded-full p-2 border-2 border-[#000]  hover:text-[#fff]"
+                  className=" text-xl text-black bg-[#fd8b00] hover:scale-125 hover:bg-[#1a4093] rounded-full p-2 border-2 border-[#000]  hover:text-[#fff]"
                 >
                   <BsTwitterX />
                 </a>
@@ -31,14 +31,14 @@ function Hero() {
 
                 <a
                   href="https://t.me/NubShib" target="_blank"
-                  className=" text-xl text-black bg-[#fd8b00] hover:bg-[#1a4093] rounded-full p-2 border-2 border-[#000]  hover:text-[#fff]"
+                  className=" text-xl text-black hover:scale-125 bg-[#fd8b00] hover:bg-[#1a4093] rounded-full p-2 border-2 border-[#000]  hover:text-[#fff]"
                 >
                   <FaTelegram />
                 </a>
 
           <a
             href="#" target="_blank"
-            className=" bg-[#fd8b00] rounded-full text-xl font-semibold p-1 border-2 "
+            className=" bg-[#fd8b00] rounded-full text-xl font-semibold p-1 border-2 hover:scale-125 "
           >
             <img src="images/dext.png" alt="" className=" h-[29px] w-auto" />
           </a>

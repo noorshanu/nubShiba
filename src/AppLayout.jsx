@@ -13,7 +13,7 @@ const Popup = ({ onClose }) => {
     <div className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-50 backdrop-blur-lg">
       <div className="rounded-lg p-8">
         <button
-          className="bg-[#fd8b00] rounded-full px-6 py-2 text--2xl sm:text-5xl font-kid  font-bold border-2"
+          className="bg-[#fd8b00] rounded-full px-6 py-2 text--2xl sm:text-5xl font-kid  font-bold border-2 hover:scale-125"
           onClick={onClose}
         >
           Nubshib - $NUBS
@@ -56,7 +56,7 @@ function AppLayout() {
         <Hero />
         <div className=" flex justify-center my-4 ">
           <button
-            className="bg-[#fd8b00] text-black font-bold py-2 px-16 rounded focus:outline-none focus:shadow-outline"
+            className="bg-[#fd8b00] text-black font-bold py-2 px-16 rounded focus:outline-none focus:shadow-outline  hover:scale-125"
             onClick={handlePlayPause}
           >
             {isPlaying ? "Pause " : "Play Music"}
