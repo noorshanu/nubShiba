@@ -80,7 +80,7 @@ function AppLayout() {
              <div>
        <RoadMap/>
         </div>
-        <dl className="h-[50px]" />
+ 
 
         <Mission/>
         <dl className="h-[50px]" />

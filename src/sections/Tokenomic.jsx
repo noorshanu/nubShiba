@@ -14,7 +14,7 @@ function Tokenomic() {
                 </h1>
 
                 <p className=' text-lg font-semibold'>
-                Nubsshib
+                Nubshib
                 </p>
 
             </div>
