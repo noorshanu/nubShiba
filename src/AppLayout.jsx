@@ -7,6 +7,8 @@ import MemeMark from "./sections/MemeMark";
 import Footer from "./sections/Footer";
 import Music from "./nubshiba.mp3";
 import Mission from "./sections/Mission";
+import HowToBuy from "./sections/HowToBuy";
+import RoadMap from "./sections/RoadMap";
 
 const Popup = ({ onClose }) => {
   return (
@@ -75,17 +77,21 @@ function AppLayout() {
         <dl className="h-[50px]" />
         <Intro />
         <dl className="h-[50px]" />
+             <div>
+       <RoadMap/>
+        </div>
+        <dl className="h-[50px]" />
 
         <Mission/>
+        <dl className="h-[50px]" />
+        <HowToBuy/>
         {/* <div>
           <Photo/>
         </div> */}
         {/* <div className=" bg-[#ffffff]">
         <MemeCards />
         </div> */}
-        {/* <div>
-          <RoadMap/>
-        </div> */}
+   
         {/* <div>
           <Partner />
         </div> */}

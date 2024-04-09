@@ -1,5 +1,6 @@
 import React from "react";
 import RoadmapCards from "../components/RoadmapCards";
+import Tokenomic from "./Tokenomic";
 
 const Intro = () => {
   return (
@@ -17,6 +18,11 @@ const Intro = () => {
           </h1>
 
         <p></p>
+
+        <div className=" py-4">
+          <Tokenomic/>
+
+        </div>
 
           <div className=" flex flex-col sm:flex-row justify-center gap-4 mt-8 ">
             <span className="text-[50px] sm:text-[100px] font-kid font-bold">
