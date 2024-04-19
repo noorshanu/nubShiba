@@ -65,7 +65,7 @@ function AppLayout() {
           </button>
         
         </div>
-        <a href="/" className="bg-[#fd8b00] my-2 text-black font-bold py-2 px-2 sm:px-16 rounded sm:text-xl text-xs   flex justify-center w-[360px] sm:w-[720px] mx-auto">CA : BpAsimH7aFv2KFLDQeqWQkkCQh2to3ucfoaJ6UYfiDuk</a>
+        <a href="/" className="bg-[#fd8b00] my-2 text-black font-bold py-2 px-2 sm:px-16 rounded sm:text-xl text-xs   flex justify-center w-[360px] sm:w-[720px] mx-auto">CA : Hv1pMPytvgMPUVQUdXsBWhvgdYJqcRdKSeRBK3BrhYcu</a>
         <audio ref={audioRef} src={Music}></audio>
 
       
