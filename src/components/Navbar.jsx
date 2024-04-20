@@ -28,7 +28,7 @@ function Navbar() {
 
         {/* Wallet Connect button */}
         <div className="md:flex items-center">
-            <a href="/" className="bg-[#fd8b00] rounded-full px-4 py-2 text-xl font-kid  font-semibold ">Buy Now</a>
+            <a href="https://www.dextools.io/app/en/solana/pair-explorer/52og9K7jjsoP76FXRHc62KXWu3aKdhriXHGdGv92Fnp8?t=1713602367339" target="_blank" className="bg-[#fd8b00] rounded-full px-4 py-2 text-xl font-kid  font-semibold ">Buy Now</a>
         </div>
 
         {/* Hamburger menu for mobile */}
